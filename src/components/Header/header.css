@@ -1,0 +1,98 @@
+.header {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #958f8f;
+  }
+  
+  .header-top {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .header-top__logo {
+    margin-top: 8px;
+  }
+  
+  .header-logo {
+    color: black;
+    text-decoration: inherit;
+  }
+
+  .logo {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .me-auto {
+    margin-right: auto!important;
+  }
+  
+  .header-top__navbar {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+
+  .header-name {
+    text-align: right;
+  }
+
+  .header-username {
+    margin-right: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .header-selectedavatar {
+    margin-right: 10px;
+  }
+
+  .header-email {
+    font-size: 20px;
+    color: #958f8f;
+  }
+
+  .header-selecteduser {
+    font-size: 20px;
+  }
+
+.custom-dropdown {
+    position: relative;
+    top: 30px; 
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 8px;
+    min-width: 300px;
+    min-height: 300px;
+  }
+
+  .custom-dropdown hr {
+    width: 200px;
+    color: #958f8f;
+  }
+  
+  .dropdown-item {
+    margin: 10px 0;
+  }
+  
+  .dropdown-avatar {
+    margin: 15px 50px 10px 50px;
+  }
+
+  .signout-btn,
+  :where(.css-dev-only-do-not-override-txh9fw).ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+    background-color: #E61A23;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
